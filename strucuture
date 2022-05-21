@@ -1,0 +1,21 @@
+// Sachin gavali
+#include <stdio.h>
+#include <conio.h>
+#include <string.h>
+struct school
+{
+    int age;
+    char name[100];
+    float marks
+};
+int main()
+{
+    struct school s1;
+    // s1.name = "Sachin Gavali ";
+    s1.age = 10;
+    s1.marks = 23.5;
+    strcpy(s1.name, "Sachin Gavali");
+    printf(" the Name is = %s\n", s1.name);
+    printf(" THe age is = %d\n", s1.age);
+    printf(" THe marks is = %d\n", s1.marks);
+}
